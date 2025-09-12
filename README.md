@@ -167,13 +167,13 @@ WikiRiset hanya menerima konten relevan dengan pendidikan dan penelitian. Setiap
    ```
 3. Letakkan di dalam folder **sesuai kategori**:
    ```
-   konten/matematika/nama-file.html
+   konten/matematika/2025-0001-nazwa-sigma-spiral.html
    ```
    Kalau fisika:
    ```
-   konten/fisika/nama-file.html
+   konten/fisika/2025-0001-nazwa-sigma-spiral.html
    ```
-4. Kiriman Anda sedang dalam peninjauan. Ketika sudah disetujui maka tampilan halaman Anda akan berlokasi `wikiriset/konten/matematika/nama-file.html`
+4. Kiriman Anda sedang dalam peninjauan. Ketika sudah disetujui maka tampilan halaman Anda akan berlokasi `wikiriset/konten/matematika/2025-0001-nazwa-sigma-spiral.html`
 
 #### Hak Cipta
 Semua karya yang dipublikasikan di WikiRiset dilisensikan di bawah lisensi **Creative Commons Attribution 4.0 International (CC-BY-4.0)**, kecuali penulis menentukan lisensi lain.
