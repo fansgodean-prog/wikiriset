@@ -40,3 +40,19 @@ Ikutilah pembagian rumpun ilmu:
 6. Keterbacaan di web:
    - Gunakan format HTML yang sesuai (<u>jangan merubah aturan templat bawaan</u>).
    - Hindari menggunggah acak, misalnya teks mentah tanpa stuktur.
+
+## Penamaan File HTML
+Format file harus jelas, ringkas, dan _machine-friendly_.
+
+### Rekomendasi Pola Nama File
+`[id]-[penulis]-[judulpendek].html`
+Dengan keterangan:
+- `[id]`, nomor unik adalah tahun dan urutan _submission_.
+  - Contoh: `2025-0001`.
+- `[penulis]`, bukan nama panjang namun harus nama asli. Biasanya nama panggilan.
+  - Contoh: `nazwa`.
+- `[judulpendek]`, slug dari judul karya (huruf kecil dan tanpa spasi).
+  - Contoh: `sigma-spiral`.
+
+### Contoh Konkret
+`2025-0001-nazwa-sigma-spiral.html`.
