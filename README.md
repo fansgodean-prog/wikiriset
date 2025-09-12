@@ -5,7 +5,7 @@ Tempatnya penelitian unggahan catatan karya Anda secara gratis! dalam bentuk for
 WikiRiset adalah repositori sumber daya terbuka (_open source_) dikembangkan mandiri oleh Nazwa Shabrina Zain sebagai alat terbukanya karya penelitian seseorang.
 
 **Tujuan**\
-WikiRiset tempat alat mencatat dan mengekplorasi beragam topik namun mengutamakan matematika dan fisika. Ketika matematika dan filsafat muncul dibidang lain misalnya ilmu pemrograman, WikiRiset juga akan mengeksplorasinya.
+WikiRiset tempat alat mencatat dan mengekplorasi beragam topik namun mengutamakan matematika dan fisika. Ketika matematika dan filsafat muncul dibidang lain misalnya ilmu komputer, WikiRiset juga akan mengeksplorasinya.
 
 **Bantu sumbangkan!**\
 Jika Anda meluangkan waktu untuk menemukan sesuatu dalam literatur, mempelajari bukti, dan contoh. Tambahkan ke dalam catatan di WikiRiset! Orang lain dapat manfaatnya dan begitu pula manfaat juga dirasakan oleh Anda sendiri.
