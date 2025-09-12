@@ -1,3 +1,5 @@
+<p align="right">Bahasa: Indonesia</p>
+
 # WikiRiset – Dalam Pengembangan
 Tempatnya penelitian unggahan catatan karya Anda secara gratis! dalam bentuk format HTML dalam stuktur folder rapih dan dalam pengawasan.
 
