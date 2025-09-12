@@ -69,7 +69,7 @@ WikiRiset hanya menerima konten relevan dengan pendidikan dan penelitian. Setiap
 
 #### Menggunggah
 1. _Fork_ repositori ini.
-2. Gunakan template dibawah ini:
+2. Gunakan templat dibawah ini:
    ```html
    <!DOCTYPE html>
    <html>
