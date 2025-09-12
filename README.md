@@ -74,38 +74,82 @@ WikiRiset hanya menerima konten relevan dengan pendidikan dan penelitian. Setiap
    <!DOCTYPE html>
    <html>
        <head>
-           <title>Halaman Judul</title>
+           <title>Halaman Judul Penelitian Anda</title>
+           <style>
+               body {
+                   margin: 0 auto;
+                   padding: 32px 16px;
+                   max-width: 850px;
+                   font-family: "Georgia", "Times New Roman", serif;
+                   font-size: 16px;
+                   line-height: 1.6;
+                   color: #222;
+                   background: #ffffff;
+               }
+            
+               h1 {
+                   margin-bottom: 16px;
+                   font-size: 36px;
+                   font-weight: bold;
+               }
+            
+               h2 {
+                   margin-top: 32px;
+                   margin-bottom: 12px;
+                   font-size: 24px;
+                   font-weight: bold;
+               }
+            
+               h3 {
+                   margin-top: 24px;
+                   margin-bottom: 8px;
+                   font-size: 20px;
+                   font-weight: bold;
+               }
+            
+               p {
+                   margin-bottom: 16px;
+                   font-size: 16px;
+               }
+            
+               .referensi {
+                   font-size: 14px;
+                   line-height: 1.4;
+               }
+           </style>
        </head>
        <body>
            <h1><!-- Judul --></h1>
            <!-- Konten dimulai -->
-        
+     
            <h2><!-- Abstrak --></h2>
            <!-- Konten dimulai -->
-        
+     
            <h2><!-- Latar Belakang --></h2>
            <!-- Konten dimulai -->
-        
+     
            <h2><!-- Metode --></h2>
            <!-- Konten dimulai -->
-        
+     
            <h2><!-- Hasil --></h2>
            <!-- Konten dimulai -->
-        
+     
            <h2><!-- Diskusi --></h2>
            <!-- Konten dimulai -->
-        
-           <h2><!-- Referensi --></h2>
-           <!-- Konten dimulai -->
+     
+            <section class="referensi">
+               <h2><!-- Referensi --></h2>
+               <!-- Konten dimulai -->
+           </section>
        </body>
    </html>
    ```
 3. Letakkan di dalam folder **sesuai kategori**:
    ```
-   konten/matematika/nama_file.html
+   konten/matematika/nama-file.html
    ```
    Kalau fisika:
    ```
-   konten/fisika/nama_file.html
+   konten/fisika/nama-file.html
    ```
-4. Kiriman Anda sedang dalam peninjauan. Ketika sudah disetujui maka tampilan halaman Anda akan berlokasi `https://github.io/aflacake/wikiriset/konten/matematika/nama_file.html`
+4. Kiriman Anda sedang dalam peninjauan. Ketika sudah disetujui maka tampilan halaman Anda akan berlokasi `wikiriset/konten/matematika/nama-file.html`
