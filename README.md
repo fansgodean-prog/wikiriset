@@ -116,6 +116,21 @@ WikiRiset hanya menerima konten relevan dengan pendidikan dan penelitian. Setiap
                    font-size: 14px;
                    line-height: 1.4;
                }
+               
+               .lisensi {
+                   margin-top: 32px;
+                   padding-top: 16px;
+                   font-size: 14px;
+                   border-top: 1px solid #ccc;
+                   color: #444;
+               }
+                   .lisensi a {
+                       color: #0066cc;
+                       text-decoration: none;
+                   }
+                   .lisensi a:hover {
+                       text-decoration: underline;
+                   }
            </style>
        </head>
        <body>
@@ -139,6 +154,10 @@ WikiRiset hanya menerima konten relevan dengan pendidikan dan penelitian. Setiap
      
             <section class="referensi">
                <h2><!-- Referensi --></h2>
+               <!-- Konten dimulai -->
+           </section>
+           
+           <section class="lisensi">
                <!-- Konten dimulai -->
            </section>
        </body>
