@@ -153,3 +153,6 @@ WikiRiset hanya menerima konten relevan dengan pendidikan dan penelitian. Setiap
    konten/fisika/nama-file.html
    ```
 4. Kiriman Anda sedang dalam peninjauan. Ketika sudah disetujui maka tampilan halaman Anda akan berlokasi `wikiriset/konten/matematika/nama-file.html`
+
+#### Hak Cipta
+Semua karya yang dipublikasikan di WikiRiset dilisensikan di bawah lisensi **Creative Commons Attribution 4.0 International (CC-BY-4.0)**, kecuali penulis menentukan lisensi lain.
