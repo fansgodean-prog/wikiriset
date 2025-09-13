@@ -139,7 +139,6 @@ WikiRiset hanya menerima konten relevan dengan pendidikan dan penelitian. Setiap
        </head>
        <body>
            <h1><!-- Judul --></h1>
-           <!-- Konten dimulai -->
      
            <h2><!-- Abstrak --></h2>
            <!-- Konten dimulai -->
