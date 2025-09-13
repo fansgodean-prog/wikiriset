@@ -1,5 +1,7 @@
 <p align="right">Bahasa: Indonesia</p>
 
+<img src="https://raw.githubusercontent.com/aflacake/wikiriset/main/gmbr/Logo%20WikiRiset.png" alt="Logo WikiRiset"/>
+
 # WikiRiset – Dalam Pengembangan
 Tempatnya penelitian unggahan catatan karya Anda secara gratis! dalam bentuk format HTML dalam stuktur folder rapih dan dalam pengawasan.
 
