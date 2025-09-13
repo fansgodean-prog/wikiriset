@@ -135,10 +135,37 @@ WikiRiset hanya menerima konten relevan dengan pendidikan dan penelitian. Setiap
                    .lisensi a:hover {
                        text-decoration: underline;
                    }
+                   
+              .bilahNavigasi {
+                padding: 16px 0;
+                display: flex;
+                gap: 20px;
+                font-family: "Georgia", serif;
+                font-size: 18px;
+                border-bottom: 2px solid #222;
+              }
+                  .bilahNavigasi a {
+                    text-decoration: none;
+                    color: #222;
+                  }
+                
+                  .bilahNavigasi a:hover {
+                    text-decoration: underline;
+                  }
            </style>
        </head>
        <body>
+           <img src="https://raw.githubusercontent.com/aflacake/wikiriset/main/gmbr/Logo%20WikiRiset.png" width="100px" height="20px" />
+            <!-- bilah -->
+            <nav class="bilahNavigasi">
+                <a href="https://wikiriset.pages.dev">Beranda</a>
+                <a href="https://github.com/aflacake/wikiriset/blob/main/konten/panduan.md">Konten</a>
+                <a href="https://wikiriset.pages.dev/#kontribusi">Kontribusi</a>
+                <a href="https://wikiriset.pages.dev/#kontak">Kontak</a>
+            </nav>
+        
            <h1><!-- Judul --></h1>
+           <!-- Konten dimulai -->
      
            <h2><!-- Abstrak --></h2>
            <!-- Konten dimulai -->
@@ -165,6 +192,7 @@ WikiRiset hanya menerima konten relevan dengan pendidikan dan penelitian. Setiap
            </section>
        </body>
    </html>
+
    ```
 3. Letakkan di dalam folder **sesuai kategori**:
    ```
