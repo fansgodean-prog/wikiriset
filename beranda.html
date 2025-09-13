@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Beranda</title>
+        <style>
+            body {
+                margin: 0 auto;
+                padding: 32px 16px;
+                max-width: 850px;
+                font-family: "Georgia", "Times New Roman", serif;
+                font-size: 16px;
+                line-height: 1.6;
+                color: #222;
+                background: #ffffff;
+            }
+            
+            h1 {
+                margin-bottom: 16px;
+                font-size: 36px;
+                font-weight: bold;
+            }
+            
+            h2 {
+                margin-top: 32px;
+                margin-bottom: 12px;
+                font-size: 24px;
+                font-weight: bold;
+            }
+            
+            h3 {
+                margin-top: 24px;
+                margin-bottom: 8px;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            
+            p {
+                margin-bottom: 16px;
+                font-size: 16px;
+            }
+            
+            .bilahNavigasi {
+                padding: 16px 0;
+                display: flex;
+                gap: 20px;
+                font-family: "Georgia", serif;
+                font-size: 18px;
+                border-bottom: 2px solid #222;
+            }
+                .bilahNavigasi a {
+                    text-decoration: none;
+                    color: #222;
+                }
+                
+                .bilahNavigasi a:hover {
+                    text-decoration: underline;
+                }
+            
+            .cari {
+                margin: 0 auto;
+                padding: 32px 16px;
+                border: 1px solid black;
+            }
+            
+            .konten {
+                margin: 0 auto;
+                padding: 32px 16px;
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <img src="https://raw.githubusercontent.com/aflacake/wikiriset/main/gmbr/Logo%20WikiRiset.png" width="100px" height="20px" />
+        <!-- bilah -->
+        <nav class="bilahNavigasi">
+            <a href="">Beranda</a>
+            <a href="#konten">Konten</a>
+            <a href="#kontribusi">Kontribusi</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+        
+        <h1>WikiRiset</h1>
+        Tempatnya penelitian unggahan catatan karya Anda secara gratis! dalam bentuk format HTML dalam stuktur folder rapih dan dalam pengawasan.
+        <p></p>
+        
+        <div class="cari">
+            <h2>Cari di WikiRiset</h2>
+            <input type="text" id="pencarianBox" placeholder="Cari judul atau abstrak..." style="width: 90%; padding: 8px; font-size: 16px;">
+            <div id="hasilPencarian" style="margin-top: 16px;"></div>
+        </div>
+        
+        <h2>Apa itu WikiRiset?</h2>
+        <p>WikiRiset adalah repositori sumber daya terbuka (<i>open source</i>) dikembangkan mandiri oleh Nazwa Shabrina Zain sebagai alat terbukanya karya penelitian seseorang.</p>
+        
+        <div class="konten">
+        <h2>Konten</h2>
+        <ol>
+            <li><a href="#tujuan">Tujuan</a></li>
+            <li><a href="#kontribusi">Kontribusi Riset</a></li>
+            <li><a href="#melihatDanMengedit">Melihat & Mengedit</a></li>
+            <li><a href="#memanfaatkanMateriDariWikiRiset">Memanfaatkan Materi dari WikiRiset</a></li>
+            <li><a href="#instalasi">Instalasi</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ol>
+        </div>
+        
+        <h2 id="tujuan">Tujuan</h2>
+        <p>WikiRiset tempat alat mencatat dan mengekplorasi beragam topik namun mengutamakan matematika dan fisika. Ketika matematika dan fisika muncul dibidang lain misalnya ilmu pemrograman, WikiRiset juga akan mengeksplorasinya.</p>       
+         
+        <b>Bantu sumbangkan!</b>
+        <p>Jika Anda meluangkan waktu untuk menemukan sesuatu dalam literatur, mempelajari bukti, dan contoh. Tambahkan ke dalam catatan di WikiRiset! Orang lain dapat manfaatnya dan begitu pula manfaat juga dirasakan oleh Anda sendiri.</p>
+
+<p>Dalam melakukannya, ikuti praktik akademis umum untuk mendukung suntingan Anda:</p>
+
+        <ul>
+            <li>Berikan justifikasi dengan mengutip literatur relevan.</li>
+            <li>Berikan bukti relevan (untuk klaim).</li>
+            <li>Atau pemeriksaan kewarasan lainnya.</li>
+        </ul>
+        
+        <h2 id="kontribusi">Kontribusi Riset</h2>
+        <p>Senang menyambut karya Anda di WikiRiset. Memastikan karya penelitian Anda bermanfaat dan berpendidikan.</p>
+        <p>Ada aturan jelas sebelum Anda berkontribusi di WikiRiset:</p>
+            
+        <h3>Peraturan</h3>
+        <p>Tulisan Anda harus mengikat dan mematuhi udang-undang berlaku Indonesia:</p>
+        
+        <ul>
+            <li>Undang-Undang Nomor 28 Tahun 2014 tentang Hak Cipta.</li>
+            <li>Kekerasan:</li>
+            <ul>
+                <li>Undang-Undang No. 23 Tahun 2002 tentang Perlindungan Anak.</li>
+                <li>Undang-Undang No. 12 Tahun 2022, tentang Tindak Pidana Kekerasan Seksual (TPKS).</li>
+            </ul>
+            <li>Undang-Undang Nomor 44 Tahun 2008, tentang Pornografi.</li>
+            <li>Pasal 28 ayat (2) UU ITE 2024, tentang Menjerat Penyebar Kebencian SARA.</li>
+        </ul>      
+        
+        <p>Dengan menyatakan:</p>
+        <ul>
+            <li>Tidak boleh menggunggah karya hak cipta tanpa izin.</li>
+            <li>Tidak diperbolehkan konten kekerasan, vulgar, dan pornografi.</li>
+            <li>Tidak diperbolehkan SARA (Suku, Agama, Ras, dan Antargolongan) untuk suatu yang negatif seperti kebencian.</li>
+            <li>Tidak diperbolehkan mengirim file mengandung malware atau virus.</li>
+        </ul>
+        <p>Sewaktu-waktu aturan ini bisa diperubah.</p>
+        
+        <h2 id="melihatDanMengedit">Melihat & Mengedit</h2>
+        <p>Seharusnya tidak ada kesulitan di peramban mana saja dan di perangkat manapun, kebanyakan orang dapat memilih peramban mereka sukai. Lebih baik gunakan peramban baru karena melihat & mengedit dalam situs <a href="https://github.com/aflacake/wikiriset">GitHub</a> cukup berat.</p>
+        
+        <p>Format penulisan dalam HTML. Sentuhan edit terletak pada folder <code>wikiriset/konten/...</code> sesuaikan kategori. Anda bisa juga menyelamatkan editor lain dari kesalahan dan kekurangan informasi. Mereka perlu dijelaskan.</p>
+        
+        <h2 id="memanfaatkanMateriDariWikiRiset">Memanfaatkan Materi dari WikiRiset</h2>
+        <p>Semua karya di WikiRiset terbuka untuk diakses publik sesuai lisensi dipilih penulis.</p>
+        
+        <p>Pengguna lain boleh mengutip, membagikan, atau mengadaptasi karya ini sepanjang mematuhi ketentuan lisensi dengan memberikan atribusi yang jelas.</p>
+        
+        <p>Penyalahgunaan seperti penghapusan atribusi, plagiarisme, atau pelanggaran lisensi tidak diperbolehkan.</p>
+        
+        <h3>Prinsip Dasar</h3>
+        <ul>
+            <li>Semua konten di WikiRiset <strong>dapat diakses bebas</strong>.</li>
+            <li>Lisensi (misalnya <strong>CC-BY-4.0</strong>) sudah mengatur <strong>hak orang lain</strong> untuk memanfaatkan, menyebarkan, atau mengadaptasi karya.</li>
+            <li>Kewajibannya adalah <strong>atribusi</strong>.</li>
+        </ul>
+        
+        <h2 id="instalasi">Instalasi</h2>
+        <p>Tidak ada konten.</p>
+        
+        <h2 id="kontak">Kontak</h2>
+        <p>Tempat utama semua komunikasi terkait WikiRiset adalah di <a href="https://github.com/aflacake/wikiriset/issues">isu WikiRiset di GitHub</a>. Saat memposting disana, Anda dapat memilih label "pesan" untuk pesan Anda.</p>
+        
+        <p>Pertanyaan bisa diberi label "pertanyaan".</p>
+        
+        <p>Laporan serangga atau permintaan fitur sebaiknya disampaikan dengan memilih label "serangga" atau "peningkatan."</p>
+        
+        <!-- Skirp -->
+        <script>
+            async function memuatIndeks() {
+                try {
+                    const respon = await fetch("wikiriset/indeks.json");
+                    return await respon.json();
+                } catch (e) {
+                    console.error("Gagal memuat indeks.json", e);
+                    return [];
+                }
+            }
+            
+            async function setelPencarian() {
+                const indeks = await memuatIndeks();
+                const pencarianBox = document.getElementById("pencarianBox");
+                const hasil = document.getElementById("hasilPencarian");
+                
+                pencarianBox.addEventListener("input", function () {
+                    const kueri = this.value.toLowerCase();
+                    hasil.innerHTML = "";
+                    
+                    if (!kueri) return;
+                    
+                    const penyaring = indeks.filter(barang =>
+                        barang.judul.toLowerCase().includes(kueri) ||
+                        barang.abstrak.toLowerCase().includes(kueri)
+                      );
+                      
+                      if (penyaring.length === 0) {
+                          hasil.innerHTML = "<p><i>Tidak ada hasil ditemukan.</i></p>";
+                          return;
+                      }
+                      
+                      penyaring.forEach(barang => {
+                          const elemen = document.createElement("div");
+                          elemen.innerHTML = `
+                              <p>
+                                  <strong><a href="{barang.jalur}">${barang.judul}</a></strong><br />
+                                  ${item.abstrak}
+                              </p>
+                          `;
+                          hasil.appendChild(elemen);
+                      });                   
+                });
+            }
+            
+            setelPencarian();
+        </script>
+  </body>
+</html>
