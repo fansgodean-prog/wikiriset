@@ -22,6 +22,8 @@ Dalam melakukannya, ikuti praktik akademis umum untuk mendukung suntingan Anda:
 ## Kontribusi Riset
 Senang menyambut karya Anda di WikiRiset. Memastikan karya penelitian Anda bermanfaat dan berpendidikan.
 
+> Kesulitan berkontribusi di WikiRiset? isi formulir berikut https://forms.cloud.microsoft/r/cwvcnf4se7.
+
 Ada aturan jelas sebelum Anda berkontribusi di WikiRiset:
 
 ### Peraturan
