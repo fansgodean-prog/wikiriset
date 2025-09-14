@@ -178,7 +178,7 @@
         <script>
             async function memuatIndeks() {
                 try {
-                    const respon = await fetch("wikiriset/indeks.json");
+                    const respon = await fetch("indeks.json");
                     return await respon.json();
                 } catch (e) {
                     console.error("Gagal memuat indeks.json", e);
@@ -211,8 +211,8 @@
                           const elemen = document.createElement("div");
                           elemen.innerHTML = `
                               <p>
-                                  <strong><a href="{barang.jalur}">${barang.judul}</a></strong><br />
-                                  ${item.abstrak}
+                                  <strong><a href="${barang.jalur}">${barang.judul}</a></strong><br />
+                                  ${barang.abstrak}
                               </p>
                           `;
                           hasil.appendChild(elemen);
