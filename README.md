@@ -192,7 +192,6 @@ WikiRiset hanya menerima konten relevan dengan pendidikan dan penelitian. Setiap
            </section>
        </body>
    </html>
-
    ```
 3. Letakkan di dalam folder **sesuai kategori**:
    ```
@@ -200,9 +199,22 @@ WikiRiset hanya menerima konten relevan dengan pendidikan dan penelitian. Setiap
    ```
    Kalau fisika:
    ```
-   konten/fisika/2025-0001-nazwa-sigma-spiral.html
+   konten/fisika/2025-0001-nazwa-benda-jatuh.html
    ```
-4. Kiriman Anda sedang dalam peninjauan. Ketika sudah disetujui maka tampilan halaman Anda akan berlokasi `wikiriset/konten/matematika/2025-0001-nazwa-sigma-spiral.html`
+4. Memperbarui `indeks.json` agar muncul dipencarian:
+   Isi bidang yang wajib diisi `judul`, `abstrak`, dan `jalur`.
+
+   Contoh:
+   ```json
+   [
+     {
+       "judul": "Analisis Sigma Spiral: Penyelesaian Persamaan Transendental",
+       "abstrak": "Penelitian ini membahas tentang Sigma Spiral sebuah persamaan spiral yang melibatkan fungsi logaritma alami dan eksponensial.",
+       "jalur": "https://wikiriset.pages.dev/konten/matematika/2025-0001-nazwa-sigma-spiral"
+     }
+   ]
+   ```
+5. Kiriman Anda sedang dalam peninjauan. Ketika sudah disetujui maka tampilan halaman Anda akan berlokasi `wikiriset/konten/matematika/2025-0001-nazwa-sigma-spiral.html`.
 
 #### Hak Cipta
 Semua karya yang dipublikasikan di WikiRiset dilisensikan di bawah lisensi **Creative Commons Attribution 4.0 International (CC-BY-4.0)**, kecuali penulis menentukan lisensi lain.
